@@ -89,7 +89,10 @@ button {
   height: 42px;
   border-radius: 12px;
   background: var(--week);
-  font-weight: 800;
+  img{
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .brand strong,
