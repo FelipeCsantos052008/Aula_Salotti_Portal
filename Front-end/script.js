@@ -1,6 +1,3 @@
-"use strict";
-
-
 // [S15A2] Código formatado e organizado para facilitar leitura e manutenção.
 const estudantes = [
   { nome: "Ana Souza", turma: "2º A", codigo: "BIO0001", status: "Presente" },
