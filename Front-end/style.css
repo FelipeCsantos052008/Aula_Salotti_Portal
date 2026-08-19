@@ -299,33 +299,6 @@ overflow: hidden;
   font-size: 1.25rem;
 }
 
-.lesson-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.25rem 0.52rem;
-  border-radius: 999px;
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-}
-
-.lesson-tag--s15 {
-  background: #2563eb;
-}
-
-.lesson-tag--s16 {
-  background: #7c3aed;
-}
-
-.lesson-tag--s17 {
-  background: #0f766e;
-}
-
-.lesson-tag--s18 {
-  background: #c2410c;
-}
-
 .search-field {
   width: min(320px, 100%);
 }
