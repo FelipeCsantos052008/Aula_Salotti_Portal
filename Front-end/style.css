@@ -125,22 +125,11 @@ button {
 }
 
 .sidebar {
-  padding: 1.5rem 1rem;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
-  border-radius: 0 0 50% 50% / 0 0 30% 30%;
-  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: fit-content;
 
-}
-.sidebar ::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 200%;
-  height: 48%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
-  border-radius: 0 0 50% 50% / 0 0 30% 30%;
-  pointer-events: none;
 }
 
 .sidebar nav {
