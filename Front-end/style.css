@@ -127,7 +127,10 @@ button {
 .sidebar {
   padding: 1.5rem 1rem;
   background: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(09px);
   border-right: 1px solid var(--border);
+
 }
 
 .sidebar nav {
@@ -182,9 +185,10 @@ main section {
   align-items: stretch;
   padding: clamp(1.5rem, 4vw, 3rem);
   border-radius: 1.4rem;
-  background: linear-gradient(125deg, var(--navy), #183170);
+  background: rgba(255, 255, 255, 0.2);
   color: #fff;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(09px);
 }
 
 .hero h1 {
