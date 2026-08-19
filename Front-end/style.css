@@ -114,6 +114,8 @@ button {
 }
 
 .page-grid {
+  background-image: url("../Images/Background.jpg");
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 230px minmax(0, 1fr);
   min-height: calc(100vh - 72px);
