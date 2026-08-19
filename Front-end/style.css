@@ -180,20 +180,6 @@ button {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-.reference-box {
-  margin-top: 1.5rem;
-  padding: 1rem;
-  border-radius: 0.8rem;
-  background: #f8fafc;
-  border: 1px solid var(--border);
-}
-
-.reference-box strong,
-.reference-box small {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
 main {
   width: min(1180px, 100%);
   margin: 0 auto;
