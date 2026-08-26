@@ -15,8 +15,7 @@
 
 * {
   box-sizing: border-box;
-  filter: invert(100%);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 html {
@@ -46,7 +45,7 @@ button {
   top: -5rem;
   z-index: 100;
   padding: 0.75rem 1rem;
-  background: #fff;
+  background: #ff0000;
   color: var(--navy);
   border-radius: 0.5rem;
 }
@@ -79,6 +78,10 @@ button {
   background: rgba(15, 39, 71, 0.96);
   color: #fff;
   backdrop-filter: blur(12px);
+  background-color: rgba(0, 255, 42, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 0 0 20px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .brand {
@@ -119,12 +122,18 @@ button {
   display: grid;
   grid-template-columns: 230px minmax(0, 1fr);
   min-height: calc(100vh - 72px);
+  background-image: url(../Images/Background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .sidebar {
   padding: 1.5rem 1rem;
   background: #fff;
   border-right: 1px solid var(--border);
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px)
 }
 
 .sidebar nav {
