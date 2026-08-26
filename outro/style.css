@@ -122,10 +122,8 @@ button {
   display: grid;
   grid-template-columns: 230px minmax(0, 1fr);
   min-height: calc(100vh - 72px);
-  background-image: url(../Images/Background.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
 }
 
 .sidebar {

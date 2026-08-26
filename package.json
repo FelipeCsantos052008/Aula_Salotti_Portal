@@ -1,0 +1,19 @@
+{
+  "name": "aula_salotti_portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeCsantos052008/Aula_Salotti_Portal.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FelipeCsantos052008/Aula_Salotti_Portal/issues"
+  },
+  "homepage": "https://github.com/FelipeCsantos052008/Aula_Salotti_Portal#readme"
+}
