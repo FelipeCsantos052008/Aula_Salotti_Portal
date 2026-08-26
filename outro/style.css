@@ -650,11 +650,11 @@ pre {
   padding: 1rem;
   border-radius: 0.8rem;
   background: #101827;
-  color: #d7e8ff;
 }
 
 code {
   font-family: Consolas, monospace;
+  color: white;
 }
 .quality-grid {
     display: grid;
