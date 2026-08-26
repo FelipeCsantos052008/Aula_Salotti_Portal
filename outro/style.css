@@ -118,6 +118,8 @@ button {
   display: grid;
   grid-template-columns: 230px minmax(0, 1fr);
   min-height: calc(100vh - 72px);
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
 }
 
 .sidebar {
