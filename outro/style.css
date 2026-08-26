@@ -124,6 +124,11 @@ button {
   min-height: calc(100vh - 72px);
   background-color: whitesmoke;
   background-repeat: no-repeat;
+  background-image: url(../Images/Background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sidebar {
