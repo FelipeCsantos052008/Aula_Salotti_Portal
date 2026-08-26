@@ -11,6 +11,7 @@
   --week: #2563eb;
   --week-light: #dbeafe;
   --shadow: 0 16px 40px rgba(15, 39, 71, 0.09);
+  --Fontes: 'Sci Fied 2002', Nintend;
   box-sizing: border-box;
 }
 
@@ -22,7 +23,10 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--text);
-  font-family: Inter, Arial, sans-serif;
+  --font-family-base: 'Roboto', sans-serif;
+  --font-size-base: 16px;
+  --font-weight-normal: 400;
+  --line-height-base: 1.6;
   line-height: 1.5;
 }
 
