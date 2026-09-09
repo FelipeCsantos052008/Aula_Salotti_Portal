@@ -675,3 +675,70 @@ code {
     color: var(--week);
     font-size: 0.85rem;
 }
+
+.student-toolbar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+  background: #fef3c7;
+  border: 2px dashed #f59e0b;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.student-toolbar input,
+.student-toolbar select{
+  width: 100%;
+  border: 2px solid #f97316;
+  border-radius: 0.25rem;
+  padding: 0.85rem;
+  background: #fff7ed;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+}
+
+.student-card {
+  min-width: 0;
+  border-radius: 0.25rem;
+  border: 2px solid #f97316;
+  background: #fff7ed;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(249, 115, 22, 0.25);
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible{
+  outline: 3px solid #f97316;
+  outline-offset: 3px;
+}
+
+.student-card strong::before{
+  content: "Aluno: ";
+  color: #c2410c;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .student-toolbar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .student-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1200px){
+  .student-grid{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
